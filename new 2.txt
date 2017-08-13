@@ -1,0 +1,10 @@
+routing - module
+
+
+<a href="#asd"> link </a> 
+1)<a routerLink="asd" routeractive="active"> link </a> 
+2)<a routerLink="demo" routeractive="active"> demo </a> 
+
+<header>
+<router-outlet></router-outlet>
+<footer>
