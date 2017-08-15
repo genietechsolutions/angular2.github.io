@@ -1,0 +1,30 @@
+<p>
+  pipes works!
+</p>
+ <h2>Power Booster</h2>
+  <p>Super power boost</p>
+  <div>
+    <label>Name: </label><input #name (keyup)="change(name.value)" type="text">
+    <p>In lowercase: {{value | lowercase}}</p>
+    <p>In uppercase: {{value | uppercase}}</p>
+  </div>
+  <div>
+    <p>Today is : {{today | date}}</p>
+    <p>Today is : {{today | date:'fullDate'}}</p>
+        <p>Today is : {{today | date:'medium'}}</p>
+        <p>Today is : {{today | date:'shortTime'}}</p>
+  </div>
+  <div>
+    <p>A: {{a | currency:'USD':false}}</p>
+    <p>B: {{b | currency:'INR':true:'4.3-3'}}</p>
+  </div>
+
+
+
+
+
+
+
+
+
+  
