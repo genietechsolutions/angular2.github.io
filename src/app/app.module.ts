@@ -7,11 +7,13 @@ import { NgClass } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent
+    FormComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
