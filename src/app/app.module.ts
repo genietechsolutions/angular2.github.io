@@ -10,12 +10,16 @@ import { Validator } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { FormBhavaniComponent } from './form-bhavani/form-bhavani.component';
+import { MyformComponent } from './myform/myform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    PipesComponent
+    PipesComponent,
+    FormBhavaniComponent,
+    MyformComponent
   ],
   imports: [
     BrowserModule,
