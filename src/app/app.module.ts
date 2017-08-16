@@ -6,10 +6,12 @@ import { NgClass } from '@angular/common';
 
 
 import { AppComponent } from './app.component';
+import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PipesDemoComponent
   ],
   imports: [
     BrowserModule,
