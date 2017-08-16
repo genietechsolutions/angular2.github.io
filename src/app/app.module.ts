@@ -6,10 +6,14 @@ import { NgClass } from '@angular/common';
 
 
 import { AppComponent } from './app.component';
+import { PipesexamplesComponent } from './pipesexamples/pipesexamples.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PipesexamplesComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
