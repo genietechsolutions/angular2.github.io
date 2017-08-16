@@ -1,0 +1,36 @@
+.size1{
+    
+    background-color: gold;
+    border: 1px  solid black;
+    height: 300px;
+    text-align: center;
+    font-size: large;
+
+    
+    
+}
+.size2{
+    
+    background-color: gold;
+    border: 1px  solid black;
+    height: 300px;
+    text-align: center;
+    font-size: large;
+    
+    
+    
+}
+.size3{
+    
+    background-color:grey;
+    border: 1px  solid black;
+    height: 100px;
+    width:150px;
+    
+
+    text-align: center;
+    font-size: large;
+    
+    
+    
+}

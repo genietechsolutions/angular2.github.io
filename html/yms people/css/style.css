@@ -1,0 +1,78 @@
+.container{
+    width: 1200px;
+    
+    margin: 0 auto;
+}
+.head{
+    width:1200px;
+    height: 100px;
+}
+.logo{
+    width: 500px;
+    
+    height: 100px;
+    float:left;
+    
+    
+}
+.contact{
+    width:300px;
+    height:100px;
+    float: left;
+    text-align: center;
+}
+.shift{
+    width: 300px;
+    height: 100px;
+    text-align: left; 
+    float: left;  
+}
+.navigation{
+    width:1200;
+    height:50px;
+    border: 1px solid black;
+    background-color: #6b6259;
+
+}
+.about{
+    width:200;
+    height:50px;
+    float:left;
+    color:white;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.slider{
+    width: 1200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.homecontent1{
+    width: 1200px;
+    height: 200px;
+   
+}
+.content{
+    width:790px;
+    height:200px;
+    color: #3a3a3a;
+    float: left; 
+}
+.experince{
+    width:400px;
+    height:200px;
+    color: #3a3a3a;
+    float: left;
+    text-align: center;
+    background-image:url("images/bgimages1.jpg")     
+    
+}
+.homecontent1 .experince  p span{
+    color: black;
+}
+.homecontent1 .experince  p{
+    color:blue;
+}
+
+
