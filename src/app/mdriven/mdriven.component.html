@@ -1,0 +1,18 @@
+<div class="col-xs-6 col-xs-offset-3">
+    <h1> Reactive(Model Driven) form </h1>
+    <form [formGroup]="rForm" (ngSubmit)="submitForm(rForm.value)">
+      <div class="form-group">
+        <label for="name">Email Id</label>
+        <input type="email" class="form-control" formControlName="name" id="emailId">
+        <div [hidden]="rForm.controls['name'].valid || rForm.controls['name'].pristine"
+            class="alert alert-danger">
+            <div [hidden]="!rForm.controls['name'].hasError('minlength')">Email should be minimum 10 letters</div>
+            <div [hidden]="!rForm.controls['name'].hasError('required')">Email is required</div>
+            <div [hidden]="!rForm.controls['name'].hasError('email')">invalid Email format</div>
+        </div>
+      </div>
+        <button type="submit" [disabled]="!rForm.valid" class="btn btn-default">Submit</button>
+    </form>
+    <button (click)="change()"> change the validation</button>
+</div>-->
+
